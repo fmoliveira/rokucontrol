@@ -14,11 +14,47 @@
         android:padding="@dimen/inner_frame_layout_padding"
         app:layout_boxedEdges="all">
 
-        <TextView
-            android:id="@+id/text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnPlayPause"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Play/Pause" />
+
+                <Button
+                    android:id="@+id/btnLaunchBadobi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Badobi" />
+
+                <Button
+                    android:id="@+id/btnLaunchPokemon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pokemon" />
+
+                <Button
+                    android:id="@+id/btnLaunchPawPatrol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paw Patrol" />
+
+                <Button
+                    android:id="@+id/btnPower"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Power" />
+
+            </LinearLayout>
+        </ScrollView>
 
     </FrameLayout>
 </androidx.wear.widget.BoxInsetLayout>
