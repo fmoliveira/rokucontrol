@@ -27,6 +27,7 @@
                     android:id="@+id/btnPlayPause"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#2196F3"
                     android:text="Play/Pause" />
 
                 <LinearLayout
@@ -39,14 +40,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="#DDE8E7"
                         android:text="Vol -"
+                        android:textColor="#3C464E" />
 
                     <Button
                         android:id="@+id/btnVolumeUp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="#DDE8E7"
                         android:text="Vol +"
+                        android:textColor="#3C464E" />
                 </LinearLayout>
 
                 <Button
@@ -71,6 +76,7 @@
                     android:id="@+id/btnPower"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#F44336"
                     android:text="Power" />
 
             </LinearLayout>
