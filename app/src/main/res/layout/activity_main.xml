@@ -29,6 +29,26 @@
                     android:layout_height="wrap_content"
                     android:text="Play/Pause" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnVolumeDown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Vol -"
+
+                    <Button
+                        android:id="@+id/btnVolumeUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Vol +"
+                </LinearLayout>
+
                 <Button
                     android:id="@+id/btnLaunchBadobi"
                     android:layout_width="match_parent"

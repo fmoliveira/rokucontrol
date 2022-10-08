@@ -34,6 +34,8 @@ class MainActivity : Activity() {
 
         this.wireButtonToRokuCommand(R.id.btnPlayPause, "keypress/Play")
         this.wireButtonToRokuCommand(R.id.btnPower, "keypress/Power")
+        this.wireButtonToRokuCommand(R.id.btnVolumeUp, "keypress/VolumeUp")
+        this.wireButtonToRokuCommand(R.id.btnVolumeDown, "keypress/VolumeDown")
         this.wireButtonToRokuCommand(R.id.btnLaunchBadobi, this.getNetflixShow(showIdBadobi))
         this.wireButtonToRokuCommand(R.id.btnLaunchPokemon, this.getNetflixShow(showIdPokemon))
         this.wireButtonToRokuCommand(R.id.btnLaunchPawPatrol, this.getNetflixShow(showIdPawPatrol))
